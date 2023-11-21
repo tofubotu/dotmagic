@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  jupyter:
+    build: .
+
+    # Mount to Dropbox
+    volumes:
+      - C:\Dropbox\Projects\Dotmagic\:/app
+
+    # External:Internal
+    ports:
+      - "8888:8888"

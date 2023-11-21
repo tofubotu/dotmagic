@@ -1,5 +1,11 @@
 ...dot magic...
 
+
+
+
+
+
+--------------------------------------
 git init .
 
 git config user.name Tofubotu
