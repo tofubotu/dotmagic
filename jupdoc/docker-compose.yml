@@ -7,6 +7,7 @@ services:
     # Mount to Dropbox
     volumes:
       - C:\Dropbox\Projects\Dotmagic\:/app
+      - //var/run/docker.sock:/var/run/docker.sock
 
     # External:Internal
     ports:
