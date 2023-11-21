@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  apache-server:
+    image: httpd:2.4
+    ports:
+      - "8111:80"
+    volumes:
+      - C:\Dropbox\Projects\Dotmagic\apache2\files\:/usr/local/apache2/htdocs/
+      - C:\Dropbox\Projects\Dotmagic\apache2\httpd.conf:/usr/local/apache2/conf/httpd.conf
+
